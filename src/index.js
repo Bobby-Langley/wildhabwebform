@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WildHabEventForm from './WildHabEventForm.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WildHabEventForm/>
   </React.StrictMode>,
   document.getElementById('root')
 );
